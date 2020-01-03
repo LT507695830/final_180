@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.liu.dao.BannerDao">
+    <insert id="insert">
+        insert into banner values(#{id},#{title},#{img},#{create_date},#{status},#{other})
+    </insert>
+
+    <update id="update">
+        update banner
+        <trim prefix="set" suffixOverrides=",">
+            <if test="title!=null">
+                title =#{title} ,
+            </if>
+            <if test="img!=null">
+                img =#{img} ,
+            </if>
+            <if test="create_date!=null">
+                create_date =#{create_date} ,
+            </if>
+            <if test="status!=null">
+                status = #{status},
+            </if>
+            <if test="other!=null">
+                other = #{other},
+            </if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete  from  banner where id = #{id}
+    </delete>
+
+
+    <select id="queryByPager" resultType="cn.liu.entity.Banner">
+        select * from banner limit #{start},#{rows}
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+         select count(*) from banner
+    </select>
+
+    <delete id="deleteAll">
+        <!-- forEach : 用来循环 collection : 用来指定循环的数据的类型 可以填的值有：array,list,map item
+            : 循环中为每个循环的数据指定一个别名 index : 循环中循环的下标 open : 开始 close : 结束 separator : 数组中元素之间的分隔符 -->
+        DELETE FROM banner WHERE id IN
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+
+    <resultMap id="BannerResultMap" type="cn.liu.dto.BannerDTO">
+        <id property="id" column="id"/>
+        <result property="desc" column="desc"/>
+        <result property="thumbnail" column="thumbnail"/>
+
+    </resultMap>
+
+    <select id="selectID" resultType="java.lang.String">
+        select img from banner where id = #{ID}
+    </select>
+    
+    
+    
+    <select id="getSelectBannerDTO" resultMap="BannerResultMap">
+       select id as id , title as 'desc' , img as thumbnail from banner
+    </select>
+
+</mapper>
+
+

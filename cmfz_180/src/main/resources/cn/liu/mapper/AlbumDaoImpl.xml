@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.liu.dao.AlbumDao">
+    <insert id="insert">
+         insert into album values(#{id},#{title},#{img},#{score},#{author},#{broadcaster},#{count},#{brief},#{create_date},#{status},#{other})
+    </insert>
+
+
+    <delete id="delete">
+          delete  from  album where id = #{id}
+    </delete>
+
+    <update id="update">
+        update album
+        <trim prefix="set" suffixOverrides=",">
+            <if test="title!=null">
+                title =#{title} ,
+            </if>
+            <if test="img!=null">
+                img =#{img} ,
+            </if>
+            <if test="score!=null">
+                score =#{score} ,
+            </if>
+            <if test="author!=null">
+                author = #{author},
+            </if>
+            <if test="broadcaster!=null">
+                broadcaster = #{broadcaster},
+            </if>
+            <if test="count!=null">
+                count = #{count},
+            </if>
+            <if test="brief!=null">
+                brief = #{brief},
+            </if>
+            <if test="create_date!=null">
+                create_date = #{create_date},
+            </if>
+            <if test="status!=null">
+                status = #{status},
+            </if>
+            <if test="other!=null">
+                other = #{other}
+            </if>
+        </trim>
+        where id = #{id}
+    </update>
+
+
+    <select id="queryByPager" resultType="cn.liu.entity.Album">
+        select * from album limit #{start},#{rows}
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+         select count(*) from album
+    </select>
+
+    <select id="getSelect" resultType="cn.liu.entity.Album">
+        select * from album
+    </select>
+
+    <resultMap id="AlbumResultMap" type="cn.liu.dto.AlbumASArticleDTO">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="thumbnail" column="thumbnail"/>
+        <result property="author" column="author"/>
+        <result property="create_date" column="create_date"/>
+
+    </resultMap>
+
+    <select id="getSelectAlbumDTO" resultMap="AlbumResultMap">
+        select id as id ,  title as title , img as thumbnail , brief as author ,create_date as create_date from album
+    </select>
+
+    <select id="getNumber" resultType="java.lang.Integer">
+        select count(*) from album where id = #{id}
+    </select>
+</mapper>
+
+

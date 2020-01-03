@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.liu.dao.UserDao">
+    <insert id="insert">
+            insert  into  t_user values (#{id},#{phone_number},#{password},#{name},#{dharma},#{head_img},#{sex},#{address},#{sing},#{guru_id},#{last_date},#{create_date},#{status},#{salt},#{other})
+        </insert>
+    <delete id="delete">
+            delete from t_user where id = #{id}
+        </delete>
+    <update id="update">
+        update t_user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="phone_number!=null">
+                phone_number = #{phone_number},
+            </if>
+            <if test="password !=null">
+                password = #{password },
+            </if>
+            <if test="name !=null">
+                name = #{name },
+            </if>
+            <if test="dharma !=null">
+                dharma = #{dharma },
+            </if>
+            <if test="head_img !=null">
+                head_img = #{head_img },
+            </if>
+            <if test="sex !=null">
+                sex = #{sex },
+            </if>
+            <if test="address  !=null">
+                address = #{address  },
+            </if>
+            <if test="sing !=null">
+                sing = #{sing },
+            </if>
+            <if test="guru_id !=null">
+                guru_id = #{guru_id },
+            </if>
+            <if test="last_date !=null">
+                last_date = #{last_date },
+            </if>
+            <if test="create_date  !=null">
+                create_date = #{create_date  },
+            </if>
+            <if test="status  !=null">
+                status = #{status  },
+            </if>
+            <if test="salt  !=null">
+                salt = #{salt  },
+            </if>
+            <if test="other  !=null">
+                other = #{other }
+            </if>
+
+        </trim>
+
+        where id = #{id}
+    </update>
+    <select id="getSelectAll" resultType="cn.liu.entity.User">
+        select * from t_user
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(*) from t_user
+    </select>
+    <select id="getSelectAdd" resultType="cn.liu.dto.UserDTO">
+        select  address  , count(id) count from t_user GROUP BY ADDRESS
+    </select>
+    <select id="queryByPager" resultType="cn.liu.entity.User">
+        select * from t_user limit #{start},#{rows}
+    </select>
+
+</mapper>
+
+

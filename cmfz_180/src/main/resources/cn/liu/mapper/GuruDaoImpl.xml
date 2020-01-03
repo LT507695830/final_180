@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.liu.dao.GuruDao">
+        <select id="getSelectDTO" resultType="java.lang.Integer">
+            select count(id) from guru where DATEDIFF(now(),create_date)= #{fate};
+        </select>
+
+    <select id="getSelect" resultType="cn.liu.entity.Guru">
+        select  * from guru
+    </select>
+
+    <select id="queryByPager" resultType="cn.liu.entity.Guru">
+        select * from guru limit #{start},#{rows}
+    </select>
+
+
+    <select id="getConut" resultType="java.lang.Integer">
+        select count(*) from guru ;
+    </select>
+
+    <select id="getSelectMonth" resultType="cn.liu.dto.GuruDTO">
+        select MONTH(create_date) as month , count(id) as count from guru GROUP BY MONTH(create_date)
+    </select>
+
+    <delete id="delete">
+        delete  from guru where id = #{id}
+    </delete>
+
+
+    <update id="update">
+        update guru
+          <trim prefix="set" suffixOverrides=",">
+              <if test="head_img!=null">
+                  head_img = #{head_img} ,
+              </if>
+              <if test="name!=null">
+                  name = #{name} ,
+              </if>
+              <if test="dharma!=null">
+                  dharma = #{dharma} ,
+              </if>
+              <if test="sex!=null">
+                  sex = #{sex} ,
+              </if>
+              <if test="create_date!=null">
+                  create_date = #{create_date} ,
+              </if>
+              <if test="status!=null">
+                  status = #{status} ,
+              </if>
+              <if test="other!=null">
+                  other = #{other} ,
+              </if>
+          </trim>
+        where id  =#{id}
+    </update>
+
+    <insert id="insert">
+        insert into guru values (#{id},#{head_img},#{name},#{dharma},#{sex},#{create_date},#{status},#{other})
+    </insert>
+
+    <select id="getImg" resultType="java.lang.String">
+        select head_img from guru where id = #{id}
+    </select>
+
+</mapper>
+
+

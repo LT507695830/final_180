@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.liu.dao.ArticleDao">
+    <insert id="insert">
+        insert into article values (#{id},#{title},#{author},#{content},#{guru_id},#{create_date},#{status},#{other})
+    </insert>
+
+    <update id="update">
+        update article
+        <trim prefix="set" suffixOverrides=",">
+            <if test="title!=null">title=#{title},</if>
+            <if test="author!=null">author=#{author},</if>
+            <if test="content!=null">content=#{content},</if>
+            <if test="guru_id!=null">guru_id=#{guru_id},</if>
+            <if test="create_date!=null">create_date=#{create_date},</if>
+            <if test="status!=null">status=#{status},</if>
+            <if test="other!=null">other=#{other}</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete from article where id= #{id}
+    </delete>
+
+    <select id="queryByPager" resultType="cn.liu.entity.Article">
+        select * from article limit #{start} ,#{rows}
+    </select>
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(*) from article
+    </select>
+
+    <select id="getSelectID" resultType="cn.liu.entity.Article">
+        select * from article where id= #{id}
+    </select>
+
+    <select id="getSelect" resultType="cn.liu.entity.Article">
+        select * from article
+    </select>
+
+    <resultMap id="ArticleResultMap" type="cn.liu.dto.AlbumASArticleDTO">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="author" column="author"/>
+        <result property="create_date" column="create_date"/>
+
+
+    </resultMap>
+
+    <select id="getSelectArticle" resultMap="ArticleResultMap" >
+        select  id as id ,title as title , author as  author ,create_date as create_date from article
+    </select>
+
+    <select id="getGuruID" resultType="java.lang.String">
+        select  guru_id from  article where id =#{id}
+    </select>
+
+</mapper>
+
+
