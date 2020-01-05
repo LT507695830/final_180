@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af37df9d-689b-4eb8-9a57-e914adeb1f64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/AddCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/ClearCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/BannerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/BannerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/boot/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/boot/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/echarts/china.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/echarts/china.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/fontawesome/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/fontawesome/less/_mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/fontawesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/fontawesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.styl" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-bootstrap.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.styl" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic-foundation.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.styl" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/iconic/font/css/open-iconic.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/trirand/ui.jqgrid-bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/css/trirand/ui.jqgrid-bootstrap4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/js/trirand/src/jquery.jqGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jqgrid/js/trirand/src/jquery.jqGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/jquery-1.11.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/jquery.backstretch.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/jquery.backstretch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/jsp/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/anchor/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/anchor/anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/autoheight/autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/autoheight/autoheight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/baidumap.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/baidumap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/baidumap/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/code/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/code/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/fixtoolbar/fixtoolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/multiimage/multiimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/multiimage/multiimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/plugins/template/html/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/default/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/qq/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/qq/qq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/simple/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/main/webapp/kindeditor/themes/simple/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/upload/img/1577106966375_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/main/webapp/upload/img/1577156055474_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/Cmfz180ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/Cmfz180ApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmfz_180/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1826818298">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="asp" value="1" />
+          <entry key="ico" value="2" />
+          <entry key="java" value="231" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="11" />
+          <entry key="jsp" value="51" />
+          <entry key="xml" value="48" />
+          <entry key="xsd" value="1" />
+          <entry key="yml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ASP" value="1" />
+          <entry key="Image" value="6" />
+          <entry key="JAVA" value="231" />
+          <entry key="JSP" value="51" />
+          <entry key="JavaScript" value="11" />
+          <entry key="XML" value="49" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="33" />
+          <entry key="java" value="18889" />
+          <entry key="jsp" value="5774" />
+          <entry key="xml" value="2842" />
+          <entry key="yml" value="221" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="18889" />
+          <entry key="JSP" value="5772" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="SQL" value="64" />
+          <entry key="XML" value="2778" />
+          <entry key="YAML" value="221" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4800">
+              <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/Cmfz180ApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6690">
+              <caret line="225" column="34" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/AddCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/aspect/RedisCacheAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/BannerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/BannerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/BannerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-932">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Chapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Banner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Mapper" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cmfz_180" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Album.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Article.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Guru.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/GuruService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/GuruDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/GuruController.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/GuruServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/ALDYPoiTests.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/User.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/UserDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/UserDaoImpl.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/map.jsp" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/OutPoiTests.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/BannerDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/BannerService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/BannerDaoImpl.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/BannerDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/AlbumDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/AlbumASArticleDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/AlbumDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/AlbumDaoImpl.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/Cmfz180ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/GuruDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/GuruDaoImpl.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/ArticleDaoImpl.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/FirstPage.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/DetailController.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/ChapterDao.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/ChapterDTO.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/FirstPageController.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/xxx.jsp" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/yyy.jsp" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/article.jsp" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/AddCache.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/ClearChche.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/pom.xml" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/BannerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/aspect/RedisCacheAop.java" />
+        <option value="$PROJECT_DIR$/cmfz_180/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cmfz_180" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cmfz_180" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cmfz_180" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cmfz_180" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="215" />
+    <option name="width" value="1712" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final_180" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmfz_180" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578187394857" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.liu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\final_180\cmfz_180\src\main\webapp\user_control" />
+      <recent name="D:\final_180\cmfz_180\src\main\webapp" />
+      <recent name="D:\final_180\cmfz_180\src\main\webapp\echarts" />
+      <recent name="D:\final_180\cmfz_180\src\test\java\cn\liu" />
+      <recent name="D:\final_180\cmfz_180\src\main\java\cn\liu\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OutPoiTests.tets3">
+    <configuration name="Cmfz180ApplicationTests.ceshi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz_180" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liu" />
+      <option name="MAIN_CLASS_NAME" value="cn.liu.Cmfz180ApplicationTests" />
+      <option name="METHOD_NAME" value="ceshi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cmfz180ApplicationTests.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz_180" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liu" />
+      <option name="MAIN_CLASS_NAME" value="cn.liu.Cmfz180ApplicationTests" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cmfz180ApplicationTests.testss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz_180" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liu" />
+      <option name="MAIN_CLASS_NAME" value="cn.liu.Cmfz180ApplicationTests" />
+      <option name="METHOD_NAME" value="testss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutPoiTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz_180" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liu" />
+      <option name="MAIN_CLASS_NAME" value="cn.liu.OutPoiTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutPoiTests.tets3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cmfz_180" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.liu" />
+      <option name="MAIN_CLASS_NAME" value="cn.liu.OutPoiTests" />
+      <option name="METHOD_NAME" value="tets3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cmfz180Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cmfz_180" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liu.Cmfz180Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Cmfz180Application" />
+      <item itemvalue="JUnit.OutPoiTests.test1" />
+      <item itemvalue="JUnit.Cmfz180ApplicationTests.testss" />
+      <item itemvalue="JUnit.Cmfz180ApplicationTests.ceshi" />
+      <item itemvalue="JUnit.Cmfz180ApplicationTests.test11" />
+      <item itemvalue="JUnit.OutPoiTests.tets3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OutPoiTests.tets3" />
+        <item itemvalue="JUnit.Cmfz180ApplicationTests.test11" />
+        <item itemvalue="JUnit.OutPoiTests.test1" />
+        <item itemvalue="JUnit.Cmfz180ApplicationTests.ceshi" />
+        <item itemvalue="JUnit.Cmfz180ApplicationTests.testss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af37df9d-689b-4eb8-9a57-e914adeb1f64" name="Default Changelist" comment="" />
+      <created>1576831059368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576831059368</updated>
+      <workItem from="1576831064856" duration="3563000" />
+      <workItem from="1576841255651" duration="166000" />
+      <workItem from="1576841440594" duration="1598000" />
+      <workItem from="1576843074447" duration="4965000" />
+      <workItem from="1576928001773" duration="5191000" />
+      <workItem from="1576975533213" duration="2427000" />
+      <workItem from="1577061722118" duration="14728000" />
+      <workItem from="1577095957986" duration="120000" />
+      <workItem from="1577096101589" duration="2324000" />
+      <workItem from="1577098626202" duration="8679000" />
+      <workItem from="1577147257147" duration="20448000" />
+      <workItem from="1577189521939" duration="3168000" />
+      <workItem from="1577233496926" duration="3067000" />
+      <workItem from="1577238492155" duration="13640000" />
+      <workItem from="1577321839146" duration="7956000" />
+      <workItem from="1577345926419" duration="6805000" />
+      <workItem from="1577352985985" duration="6510000" />
+      <workItem from="1577408039421" duration="4899000" />
+      <workItem from="1577580117361" duration="8126000" />
+      <workItem from="1577666686963" duration="22734000" />
+      <workItem from="1577752546021" duration="13827000" />
+      <workItem from="1577863508508" duration="7501000" />
+      <workItem from="1577879811891" duration="980000" />
+      <workItem from="1577924908634" duration="4661000" />
+      <workItem from="1578021747134" duration="152000" />
+      <workItem from="1578021913071" duration="4604000" />
+      <workItem from="1578184974112" duration="1295000" />
+      <workItem from="1578186337590" duration="1082000" />
+      <workItem from="1578187449055" duration="146000" />
+      <workItem from="1578187608504" duration="882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 15h 43m 47s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 15h 47m 20s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 16m 17s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 20m 30s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 22m 15s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 29m 14s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 31m 54s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 40m 29s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Cmfz180ApplicationTests_test11 - 2020.01.01 at 16h 41m 48s.xml">
+      <configuration name="Cmfz180ApplicationTests.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OutPoiTests_tets3 - 2020.01.02 at 09h 09m 35s.xml">
+      <configuration name="OutPoiTests.tets3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="176244000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="670" y="0" width="1257" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27652463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9077825" visible="true" weight="0.27929902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901555" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.135816" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.09221748" side_tool="true" weight="0.5146262" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.327818" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.036758564" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32942432" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3261105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901555" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23639774" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.327818" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.27771854" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32942432" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/OutPoiTests.java</url>
+          <line>135</line>
+          <properties class="cn.liu.OutPoiTests" method="tets3">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/BannerDaoImpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="66" column="71" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/AdminDaoImpl.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/BannerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/AlbumASArticleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/AlbumDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/ArticleDaoImpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/GuruDaoImpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/cn/liu/mapper/AlbumDaoImpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Guru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/ChapterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dao/GuruDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/dto/ChapterDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/KindeditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/ImageCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/GuruController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/DetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/ChapterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="79" column="67" lean-forward="true" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/Cmfz180Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/OutPoiTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="193" column="13" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/FirstPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/banner.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/album.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/Xxxx180Application.java" />
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/article.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/ClearCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/xxx.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/webapp/user_control/yyy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/test/java/cn/liu/Cmfz180ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6690">
+          <caret line="225" column="34" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/annotation/AddCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/controller/BannerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Chapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/entity/Banner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/aspect/RedisCacheAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/BannerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/java/cn/liu/service/impl/BannerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-932">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmfz_180/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cmfz_180</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

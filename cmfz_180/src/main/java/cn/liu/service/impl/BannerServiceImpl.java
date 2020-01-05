@@ -1,5 +1,7 @@
 package cn.liu.service.impl;
 
+import cn.liu.annotation.AddCache;
+import cn.liu.annotation.ClearCache;
 import cn.liu.dao.BannerDao;
 import cn.liu.dto.BannerDTO;
 import cn.liu.entity.Banner;
@@ -19,21 +21,25 @@ public class BannerServiceImpl implements BannerService {
     @Autowired
     private BannerDao bannerDao ;
     @Override
+    @ClearCache
     public void getInsert(Banner banner) {
         bannerDao.insert(banner);
     }
 
     @Override
+    @ClearCache
     public void getDelete(String id) {
         bannerDao.delete(id);
     }
 
     @Override
+    @ClearCache
     public void getUpdate(Banner banner) {
         bannerDao.update(banner);
     }
 
     @Override
+    @AddCache
     public Map<String, Object> queryByPager(int rows, int page) {
 
 
@@ -59,6 +65,7 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
+    @AddCache
     public Integer getCount() {
 
 
@@ -66,17 +73,20 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
+    @ClearCache
     public void getDeleteAll(String[] id) {
         bannerDao.deleteAll(id);
     }
 
     @Override
+    @AddCache
     public String getselectImg(String id) {
         return  bannerDao.selectID(id);
     }
 
 
     @Override
+    @AddCache
     public List<BannerDTO> getSelectBannerDTO() {
 
         String s = "http://localhost:80/cmfz/upload/img/";

@@ -41,6 +41,12 @@
             <scope>test</scope>
 
         </dependency>
+
+        <!--AOP-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
         <!--
            数据持久层的依赖   mysql  mybatis-springboot druid
            mybatis不需要单独引入
@@ -145,6 +151,14 @@
             <version>1.1.0</version>
         </dependency>
 
+
+
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>1.5.20.RELEASE</version>
+        </dependency>
 
 
     </dependencies>
